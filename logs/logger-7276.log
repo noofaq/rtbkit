@@ -1,0 +1,28 @@
+connecting to Carbon at 127.0.0.1:2003 (localhost)
+2014-06-24 17:15:00.939 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+wexists handler returned -101
+2. returning result 
+2014-06-24 17:15:00.993 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+file ./logs/data//2014-06-24/errors-2014-06-24-15:00:00.log exists; disambiguating
+opening file ./logs/data//2014-06-24/errors-2014-06-24-15:00:00.1.log with append 2014-06-24 17:15:01.007 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+0
+  0 ./logs/data//%F/ -1
+  2  16
+  0 / -1
+  2  4
+  0 / -1
+  1  -1
+  0 -%T.log.gz -1
+  0 ./logs/data//%F/2014-06-24 17:15:01.027 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+ -1
+  2  9
+  0 / -1
+  2  10
+  0 / -1
+  1  -1
+  0 -%T.log.gz -1
+wexists handler returned -101
+2. returning result 
+warning: could not connect to PostAuctionLoop/logger immediately
+need to disconenct from rtbPostAuctionService serviceClass/rtbPostAuctionService/PostAuctionLoop logger
+warning: could not connect to PostAuctionLoop/logger immediately

@@ -1,0 +1,44 @@
+connecting to Carbon at 127.0.0.1:2003 (localhost)
+2014-06-25 10:02:25.391 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-25 10:02:25.398 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+2014-06-25 10:02:25.407 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-25 10:02:25.418 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+2014-06-25 10:02:25.430 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to masterBanker/zeromq[0m
+2014-06-25 10:02:25.444 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:22000[0m
+2014-06-25 10:02:25.505 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+wexists handler returned -101
+2. returning result 
+agent fixed-price-agent-ex_8910 connected to router
+augmentor frequency-cap-ex has connected2014-06-25 10:02:25.532 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to agentConfigurationService/listen[0m
+
+2014-06-25 10:02:25.546 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:19000[0m
+got configuration message listening on hostname 0.0.0.0 port 12339
+fixed-price-agent-ex_8910
+
+
+agent fixed-price-agent-ex_8910 got new configuration
+2014-06-25 10:02:25.596 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+2014-06-25 10:02:25.605 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+********* calling addSpendAccount for hello:world for SlaveBanker router.slaveBanker
+2014-06-25 10:02:25.612 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:20000[0m
+2014-06-25 10:02:26.386 [LOG] MonitorClient ./rtbkit/core/monitor/monitor_client.cc:70 - void RTBKIT::MonitorClient::checkTimeout() [1;31mcheckTimeout: last request dropped[0m
+total of 9.99428e+06 microseconds and 217 sleeps
+CONFIG                                1       4640   0.05%  4640.00us/call
+HEARTBEAT                            10        328   0.00%    32.80us/call
+HELLO                                 1      29270   0.29% 29270.00us/call
+PONG0                                 9        487   0.00%    54.11us/call
+PONG1                                 9        320   0.00%    35.56us/call
+asleep                              220    9954617  99.60% 45248.26us/call
+checks                              219       1483   0.01%     6.77us/call
+doConfig                            220       1785   0.02%     8.11us/call
+doStartBidding                      220        806   0.01%     3.66us/call
+doSubmitted                         220        545   0.01%     2.48us/call
+total of 9.99274e+06 microseconds and 219 sleeps
+HEARTBEAT                            10        375   0.00%    37.50us/call
+PONG0                                10        363   0.00%    36.30us/call
+PONG1                                10        230   0.00%    23.00us/call
+asleep                              220    9972463  99.80% 45329.38us/call
+checks                              220      16961   0.17%    77.10us/call
+doConfig                            220        695   0.01%     3.16us/call
+doStartBidding                      220        733   0.01%     3.33us/call
+doSubmitted                         220        920   0.01%     4.18us/call

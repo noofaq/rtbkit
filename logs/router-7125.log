@@ -1,0 +1,143 @@
+connecting to Carbon at 127.0.0.1:2003 (localhost)
+augmentor frequency-cap-ex has connected
+2014-06-24 17:12:57.404 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to agentConfigurationService/listen[0m
+2014-06-24 17:12:57.411 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:19000[0m
+2014-06-24 17:12:57.430 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+listening on hostname 0.0.0.0 port 12339
+wexists handler returned -101
+2. returning result 
+2014-06-24 17:12:57.449 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+agent fixed-price-agent-ex_7127 connected to router
+2014-06-24 17:12:57.459 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-24 17:12:57.469 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+2014-06-24 17:12:57.470 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+got configuration message fixed-price-agent-ex_7127
+2014-06-24 17:12:57.472 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+
+
+agent fixed-price-agent-ex_7127 got new configuration
+2014-06-24 17:12:57.529 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+wexists handler returned -101
+2. returning result 
+sendTime = 0.0160773 for 3462335626
+2014-06-24 17:12:57.697 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+2014-06-24 17:12:57.709 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+2014-06-24 17:12:57.712 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:20000[0m
+sendTime = 0.0136542 for 4075584904
+sendTime = 0.0112894 for 3885000342
+sendTime = 0.0163441 for 2479624089
+sendTime = 0.0368848 for 2370611593
+sendTime = 0.0361848 for 234349579
+sendTime = 0.0149448 for 3251029347
+sendTime = 0.0292668 for 1832092227
+sendTime = 0.0126586 for 2553332375
+sendTime = 0.0114245 for 1257357323
+sendTime = 0.0145197 for 1063876140
+sendTime = 0.015219 for 639381078
+sendTime = 0.0152652 for 3040139583
+2014-06-24 17:12:58.320 [LOG] MonitorClient ./rtbkit/core/monitor/monitor_client.cc:70 - void RTBKIT::MonitorClient::checkTimeout() [1;31mcheckTimeout: last request dropped[0m
+sendTime = 0.0116098 for 3397562440
+sendTime = 0.0121856 for 3588435938
+sendTime = 0.0195844 for 896233429
+sendTime = 0.0441785 for 1722962418
+sendTime = 0.0229774 for 3714468139
+sendTime = 0.0230527 for 752160486
+sendTime = 0.0165 for 1169202445
+sendTime = 0.0141761 for 3162709169
+sendTime = 0.0112591 for 2824970429
+sendTime = 0.0268512 for 925381904
+total of 1.00332e+07 microseconds and 322 sleeps
+BID                                  64      10987   0.11%   171.67us/call
+CONFIG                                1       3331   0.03%  3331.00us/call
+HEARTBEAT                             9        463   0.00%    51.44us/call
+HELLO                                 1        968   0.01%   968.00us/call
+PONG0                                 9        370   0.00%    41.11us/call
+PONG1                                 9        331   0.00%    36.78us/call
+asleep                              326    9940961  99.08% 30493.75us/call
+checks                              325       1922   0.02%     5.91us/call
+doConfig                            326       1928   0.02%     5.91us/call
+doStartBidding                      326      16131   0.16%    49.48us/call
+doSubmitted                         326      55808   0.56%   171.19us/call
+sendTime = 0.0270743 for 3057130396
+sendTime = 0.0203068 for 88020020
+sendTime = 0.0143926 for 33656420
+sendTime = 0.0171714 for 1332957175
+got configuration message fixed-price-agent-ex_7127
+
+
+agent fixed-price-agent-ex_7127 got new configuration
+agent fixed-price-agent-ex_7127 lost configuration
+sendTime = 0.0158544 for 451830659
+sendTime = 0.0114782 for 3783666511
+agent fixed-price-agent-ex_7127 has 5 undead auctions: 
+  601874719 --> 2014-Jun-24 15:13:13 (4.3945s ago)
+  1242916069 --> 2014-Jun-24 15:13:13 (4.31451s ago)
+  1332957175 --> 2014-Jun-24 15:13:13 (4.47366s ago)
+  2082816857 --> 2014-Jun-24 15:13:13 (4.35197s ago)
+  3854452542 --> 2014-Jun-24 15:13:13 (4.26751s ago)
+total of 1.00211e+07 microseconds and 240 sleeps
+asleep                              240    9904094  98.83% 41267.06us/call
+checks                              240       1696   0.02%     7.07us/call
+doConfig                            240       1428   0.01%     5.95us/call
+doStartBidding                      240      14634   0.15%    60.98us/call
+doSubmitted                         240      99290   0.99%   413.71us/call
+sendTime = 0.0166051 for 3432212832
+sendTime = 0.0115457 for 3495942210
+sendTime = 0.011507 for 2758254309
+sendTime = 0.0171218 for 2643638002
+sendTime = 0.0105934 for 4105360855
+sendTime = 0.0107274 for 1729400193
+sendTime = 0.0181248 for 2068987444
+sendTime = 0.0107949 for 3653081710
+sendTime = 0.0168581 for 1634294535
+sendTime = 0.0111046 for 2184892846
+sendTime = 0.0106051 for 3069242600
+sendTime = 0.0118344 for 3054460024
+sendTime = 0.016269 for 2138238596
+sendTime = 0.0121586 for 2542368692
+sendTime = 0.0201755 for 1037511495
+sendTime = 0.0140016 for 1621005352
+sendTime = 0.0342271 for 2748382795
+sendTime = 0.0120285 for 667722208
+sendTime = 0.012955 for 3102056186
+agent fixed-price-agent-ex_7127 appears to be dead
+WARNING: dead agent doesn't clean up its state properly
+total of 1.00319e+07 microseconds and 194 sleeps
+asleep                              194    9886395  98.55% 50960.80us/call
+checks                              194      11659   0.12%    60.10us/call
+doConfig                            194        774   0.01%     3.99us/call
+doStartBidding                      194        808   0.01%     4.16us/call
+doSubmitted                         194     132277   1.32%   681.84us/call
+sendTime = 0.0107906 for 3748437823
+sendTime = 0.010716 for 4056966426
+sendTime = 0.0108678 for 466617661
+sendTime = 0.0159004 for 2992669098
+sendTime = 0.0104167 for 1294029594
+total of 1.00348e+07 microseconds and 195 sleeps
+asleep                              195    9881183  98.47% 50672.73us/call
+checks                              195       4948   0.05%    25.37us/call
+doConfig                            195       1141   0.01%     5.85us/call
+doStartBidding                      195       1027   0.01%     5.27us/call
+doSubmitted                         195     146518   1.46%   751.37us/call
+sendTime = 0.010582 for 3114005720
+sendTime = 0.0107095 for 978813572
+auction started after time already elapsed: 2014-Jun-24 15:13:41.0160 vs 2014-Jun-24 15:13:40.9981, available time = 35.0ms, firstData = 2014-Jun-24 15:13:40.9681
+sendTime = 0.0115385 for 546527573
+sendTime = 0.0156598 for 503361597
+sendTime = 0.0107355 for 2087956714
+sendTime = 0.038475 for 3736247424
+sendTime = 0.0242774 for 2124448998
+sendTime = 0.0131407 for 1508501439
+sendTime = 0.0125489 for 2907889076
+sendTime = 0.0233879 for 1558995802
+sendTime = 0.0266631 for 3947283550
+sendTime = 0.010267 for 494998875
+total of 9.99891e+06 microseconds and 194 sleeps
+asleep                              194    9832172  98.33% 50681.30us/call
+checks                              194       3829   0.04%    19.74us/call
+doConfig                            194        585   0.01%     3.02us/call
+doStartBidding                      194       1032   0.01%     5.32us/call
+doSubmitted                         194     161296   1.61%   831.42us/call
+sendTime = 0.0107226 for 100014130
+sendTime = 0.0133255 for 1015461332
+sendTime = 0.0116923 for 1110442926

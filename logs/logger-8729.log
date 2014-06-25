@@ -1,0 +1,26 @@
+connecting to Carbon at 127.0.0.1:2003 (localhost)
+2014-06-25 10:00:20.341 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-25 10:00:20.357 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+opening file ./logs/data//2014-06-25/errors-2014-06-25-08:00:00.log with append 0
+  0 ./logs/data//%F/ -1
+  2  16
+  0 / -1
+  2  4
+  0 / -1
+  1  -1
+  0 -%T.log.gz -1
+  0 ./logs/data//%F/ -1
+  2  9
+  0 / -1
+  2  10
+  0 / -1
+  1  -1
+  0 -%T.log.gz -1
+2014-06-25 10:00:20.416 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+warning: could not connect to adserver/logger immediately
+wexists handler returned -101
+2. returning result 
+warning: could not connect to router/logger immediately
+wexists handler returned 0
+wexists handler: node appeared
+warning: could not connect to router/logger immediately

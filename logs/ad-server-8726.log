@@ -1,0 +1,9 @@
+connecting to Carbon at 127.0.0.1:2003 (localhost)
+2014-06-25 10:00:20.357 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+wexists handler returned -101
+2. returning result 
+listening on hostname 0.0.0.0 port 12340
+listening on hostname 0.0.0.0 port 12341
+2014-06-25 10:00:20.527 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+2014-06-25 10:00:20.534 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to PostAuctionLoop/events[0m
+2014-06-25 10:00:20.538 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:20000[0m
