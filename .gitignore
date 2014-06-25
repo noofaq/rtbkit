@@ -28,5 +28,8 @@ appendonly.aof
 launch-nullbanker.sh
 launch.sh
 launch_node.sh
+run.sh
 logs/*
+zookeeper/*
+zookeeper.out
 
