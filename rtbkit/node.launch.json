@@ -23,15 +23,6 @@
                     "log": true
                 },
                 {
-                    "name": "augmentor",
-                    "root": ".",
-                    "path": "build/x86_64/bin/augmentor_ex_runner",
-                    "arg": [
-                        "-B", "rtbkit/sample.bootstrap.json"
-                    ],
-                    "log": true
-                },
-                {
                     "name": "banker",
                     "root": ".",
                     "path": "build/x86_64/bin/banker_service_runner",
@@ -49,7 +40,6 @@
                     ],
                     "log": true
                 }
-                
             ]
         }
     ]

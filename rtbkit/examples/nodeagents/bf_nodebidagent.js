@@ -15,9 +15,7 @@ var RTBkit = require('rtb'),
     config = require('nodebidagent-config').config,
     accountParent = config.account[0],
     accountFullName = config.account.join(":");
-
-console.log('pn test');
-
+    
 // uri,install name and location from bootstrap.json
 services.useZookeeper(zookeeperUri,"rtb-test", "mtl"); 
 
