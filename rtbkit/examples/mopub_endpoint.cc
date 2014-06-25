@@ -121,7 +121,7 @@ int main(int argc, char ** argv) {
 
     // Configure the agent for bidding
     for (auto & c: agent.config.creatives) {
-        c.providerConfig["mopub"]["adomain"][0] = "rtbkit.org";
+        c.providerConfig["mopub"]["adomain"][0] = "360dialog.com";
         c.providerConfig["mopub"]["nurl"]
             = std::string("<img src=\"http://")
               + "example.com"

@@ -185,7 +185,10 @@ struct TestAgent : public RTBKIT::BiddingAgent {
     {
         Guard guard(lock);
         if (!awaitingStatus.insert(id).second)
-            throw ML::Exception("auction already in progress");
+        {
+            // throw ML::Exception("auction already in progress");
+            std::cerr << "auction already in progress" << std::endl ;
+        }
         
         numBidsOutstanding = awaitingStatus.size();
     }
