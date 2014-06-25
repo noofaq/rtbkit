@@ -9,11 +9,11 @@
 //   bootstrap.json file.
 {
     // Defines a namespace within zookeeper and carbon.
-    "installation": "rtb-test",
+    "installation": "360dialog-rtb",
 
     // Defines the current location the installation used to filter services
     // and divide the carbon hierarchy.
-    "location": "mtl",
+    "location": "berlin",
 
     // Location of the Zookeeper instance which will be used to do service
     // discovery. If missing, then all will need to be located in the same
@@ -21,11 +21,14 @@
     // for tests).
     "zookeeper-uri": "localhost:2181",
 
+    // location of the redis instance to be used by the redis
+    // augmentor
+    "redis-uri": "127.0.0.1:6379",
+
     // Location of the Carbon instances which will be used to log various
     // metrics. If missing, then a barebone internal event logger will be
     // created which can be useful to write tests.
     // "carbon-uri": ["localhost:2003"],
-    "carbon-uri": ["127.0.0.1:2003"],
 
     // Port ranges that various services can use to listen for incoming
     // connections. These can be specified either as a single port or a range of

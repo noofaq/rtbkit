@@ -84,6 +84,8 @@ const Creative Creative::sampleBB
     (300, 250, "BigBox", 1);
 const Creative Creative::sampleLB
     (728, 90,  "LeaderBoard", 2);
+const Creative Creative::sampleJB
+    (0, 0,  "JokerBoard", 3);
 
 bool
 Creative::
