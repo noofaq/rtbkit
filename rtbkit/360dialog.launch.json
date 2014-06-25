@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "name": "localhost",
+            "root": ".",
+            "tasks": [
+                {
+                    "name": "monitor",
+                    "root": ".",
+                    "path": "build/x86_64/bin/monitor_service_runner",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json"
+                    ],
+                    "log": true
+                },
+                {
+                    "name": "logger",
+                    "root": ".",
+                    "path": "build/x86_64/bin/data_logger_ex",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json", "--log-dir", "./logs/data/"
+                    ],
+                    "log": true
+                },
+                {
+                    "name": "agent-configuration",
+                    "root": ".",
+                    "path": "build/x86_64/bin/agent_configuration_service_runner",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json"
+                    ],
+                    "log": true
+                },
+                {
+                    "name": "redis-augmentor",
+                    "root": ".",
+                    "path": "build/x86_64/bin/redis_augmenter_runner",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json"
+                    ],
+                    "log": true
+                },
+                {
+                    "name": "router",
+                    "root": ".",
+                    "path": "build/x86_64/bin/360dialog_router_runner",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json"
+                    ],
+                    "log": true
+                },
+                {
+                    "name": "retargeting-agent",
+                    "root": ".",
+                    "path": "build/x86_64/bin/retargeting_agent",
+                    "arg": [
+                        "-B", "rtbkit/360dialog.bootstrap.json"
+                    ],
+                    "log": true
+                }
+            ]
+        }
+    ]
+}
+
