@@ -23,3 +23,10 @@ bootstrap.json
 perf.data
 dox/html
 *.swp
+dump.rdb
+appendonly.aof
+launch-nullbanker.sh
+launch.sh
+launch_node.sh
+logs/*
+
