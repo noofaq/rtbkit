@@ -16,6 +16,7 @@ $(eval $(call program,bidding_agent_console,bidding_agent rtb_router boost_progr
 $(eval $(call program,bidding_agent_ex,bidding_agent rtb_router boost_program_options services))
 $(eval $(call program,retargeting_agent,bidding_agent rtb_router boost_program_options services))
 $(eval $(call program,bid_request_endpoint,exchange rtb_router bidding_agent boost_program_options services))
+$(eval $(call program,mopub_endpoint,exchange rtb_router bidding_agent augmentor_ex boost_program_options services))
 $(eval $(call program,multi_agent,exchange rtb_router bidding_agent boost_program_options services))
 $(eval $(call program,adserver_endpoint,standard_adserver data_logger rtb_router bidding_agent boost_program_options services))
 $(eval $(call program,integration_endpoints,exchange standard_adserver data_logger rtb_router bidding_agent boost_program_options services))
