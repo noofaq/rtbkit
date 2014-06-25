@@ -9,3 +9,4 @@
 $(eval $(call nodejs_module,budget-controller,budget-controller.js))
 $(eval $(call nodejs_module,nodebidagent-config,nodebidagent-config.js))
 $(eval $(call nodejs_program,nodebidagent,nodebidagent.js,rtb services budget-controller nodebidagent-config))
+$(eval $(call nodejs_program,bf_nodebidagent,bf_nodebidagent.js,rtb services budget-controller nodebidagent-config))

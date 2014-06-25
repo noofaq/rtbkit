@@ -1,0 +1,325 @@
+2014-06-25 13:35:30,141 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/local/bin/zookeeper/bin/../conf/zoo.cfg
+2014-06-25 13:35:30,150 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2014-06-25 13:35:30,151 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2014-06-25 13:35:30,151 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2014-06-25 13:35:30,152 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2014-06-25 13:35:30,175 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/ubuntu/local/bin/zookeeper/bin/../conf/zoo.cfg
+2014-06-25 13:35:30,176 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2014-06-25 13:35:30,195 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5--1, built on 06/23/2014 10:02 GMT
+2014-06-25 13:35:30,195 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=pn-rtbkit
+2014-06-25 13:35:30,196 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.6.0_31
+2014-06-25 13:35:30,196 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Sun Microsystems Inc.
+2014-06-25 13:35:30,197 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2014-06-25 13:35:30,197 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/ubuntu/local/bin/zookeeper/bin/../build/classes:/home/ubuntu/local/bin/zookeeper/bin/../build/lib/slf4j-log4j12-1.6.1.jar:/home/ubuntu/local/bin/zookeeper/bin/../build/lib/slf4j-api-1.6.1.jar:/home/ubuntu/local/bin/zookeeper/bin/../build/lib/netty-3.2.2.Final.jar:/home/ubuntu/local/bin/zookeeper/bin/../build/lib/log4j-1.2.15.jar:/home/ubuntu/local/bin/zookeeper/bin/../build/lib/jline-0.9.94.jar:/home/ubuntu/local/bin/zookeeper/bin/../lib/*.jar:/home/ubuntu/local/bin/zookeeper/bin/../zookeeper-*.jar:/home/ubuntu/local/bin/zookeeper/bin/../src/java/lib/ivy-2.2.0.jar:/home/ubuntu/local/bin/zookeeper/bin/../conf:
+2014-06-25 13:35:30,198 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/home/ubuntu/local/lib::/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2014-06-25 13:35:30,199 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2014-06-25 13:35:30,199 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2014-06-25 13:35:30,200 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2014-06-25 13:35:30,200 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2014-06-25 13:35:30,200 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=3.11.0-23-generic
+2014-06-25 13:35:30,201 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=ubuntu
+2014-06-25 13:35:30,201 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/ubuntu
+2014-06-25 13:35:30,202 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/ubuntu/rtbkit
+2014-06-25 13:35:30,211 [myid:] - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2014-06-25 13:35:30,211 [myid:] - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2014-06-25 13:35:30,212 [myid:] - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2014-06-25 13:35:30,240 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2014-06-25 13:35:30,261 [myid:] - INFO  [main:FileSnap@83] - Reading snapshot ./zookeeper/version-2/snapshot.0
+2014-06-25 13:35:30,338 [myid:] - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0x162 to ./zookeeper/version-2/snapshot.162
+2014-06-25 13:35:42,072 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38682
+2014-06-25 13:35:42,080 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38682; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,082 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38682
+2014-06-25 13:35:42,084 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38683
+2014-06-25 13:35:42,085 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38684
+2014-06-25 13:35:42,085 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38683; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,085 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38683
+2014-06-25 13:35:42,085 [myid:] - INFO  [SyncThread:0:FileTxnLog@199] - Creating new log file: log.163
+2014-06-25 13:35:42,086 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38684; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,086 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38684
+2014-06-25 13:35:42,087 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38685
+2014-06-25 13:35:42,087 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38686
+2014-06-25 13:35:42,087 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38685; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,088 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38685
+2014-06-25 13:35:42,088 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38686; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,089 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38686
+2014-06-25 13:35:42,092 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38687
+2014-06-25 13:35:42,093 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38687; will be dropped if server is in r-o mode
+2014-06-25 13:35:42,093 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38687
+2014-06-25 13:35:42,111 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280000 with negotiated timeout 4000 for client /127.0.0.1:38682
+2014-06-25 13:35:42,113 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280001 with negotiated timeout 4000 for client /127.0.0.1:38683
+2014-06-25 13:35:42,115 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280002 with negotiated timeout 4000 for client /127.0.0.1:38684
+2014-06-25 13:35:42,117 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280003 with negotiated timeout 4000 for client /127.0.0.1:38685
+2014-06-25 13:35:42,126 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:create cxid:0x53aab40f zxid:0x169 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,126 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab40f zxid:0x16a txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,126 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280002 type:create cxid:0x53aab40f zxid:0x16b txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,127 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280003 type:create cxid:0x53aab40f zxid:0x16c txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,132 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280004 with negotiated timeout 4000 for client /127.0.0.1:38686
+2014-06-25 13:35:42,135 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab40f zxid:0x16d txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,135 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280005 with negotiated timeout 4000 for client /127.0.0.1:38687
+2014-06-25 13:35:42,137 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280005 type:create cxid:0x53aab40f zxid:0x16e txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:35:42,169 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:delete cxid:0x53aab411 zxid:0x16f txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor
+2014-06-25 13:35:42,169 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280002 type:delete cxid:0x53aab411 zxid:0x170 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/redis-augmentation Error:KeeperErrorCode = NoNode for /360dialog-rtb/redis-augmentation
+2014-06-25 13:35:42,170 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280003 type:delete cxid:0x53aab411 zxid:0x171 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/data_logger Error:KeeperErrorCode = NoNode for /360dialog-rtb/data_logger
+2014-06-25 13:35:42,171 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:delete cxid:0x53aab411 zxid:0x172 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService
+2014-06-25 13:35:42,171 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280005 type:delete cxid:0x53aab411 zxid:0x173 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/retargeting-agent Error:KeeperErrorCode = NoNode for /360dialog-rtb/retargeting-agent
+2014-06-25 13:35:42,171 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:delete cxid:0x53aab411 zxid:0x174 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router Error:KeeperErrorCode = NoNode for /360dialog-rtb/router
+2014-06-25 13:35:42,218 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:delete cxid:0x53aab413 zxid:0x176 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService
+2014-06-25 13:35:42,219 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280003 type:delete cxid:0x53aab413 zxid:0x177 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/data_logger.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/data_logger.loopMonitor
+2014-06-25 13:35:42,220 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:delete cxid:0x53aab413 zxid:0x178 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.augmentationLoop Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.augmentationLoop
+2014-06-25 13:35:42,220 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280002 type:delete cxid:0x53aab413 zxid:0x179 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/redis-augmentation.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/redis-augmentation.loopMonitor
+2014-06-25 13:35:42,221 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:delete cxid:0x53aab414 zxid:0x17a txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor
+2014-06-25 13:35:42,269 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:delete cxid:0x53aab415 zxid:0x17c txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.loopMonitor
+2014-06-25 13:35:42,271 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:create cxid:0x53aab416 zxid:0x17d txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor/http Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor/http
+2014-06-25 13:35:42,294 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:create cxid:0x53aab417 zxid:0x17e txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor
+2014-06-25 13:35:42,316 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:delete cxid:0x53aab417 zxid:0x180 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.bidder Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.bidder
+2014-06-25 13:35:42,371 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab419 zxid:0x184 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest/http Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest/http
+2014-06-25 13:35:42,402 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab41a zxid:0x186 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest
+2014-06-25 13:35:42,405 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280000 type:create cxid:0x53aab41b zxid:0x187 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor/zeromq Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor/zeromq
+2014-06-25 13:35:42,421 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab41a zxid:0x188 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.augmentationLoop/augmentors Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.augmentationLoop/augmentors
+2014-06-25 13:35:42,432 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab41b zxid:0x189 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService
+2014-06-25 13:35:42,455 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab41b zxid:0x18b txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.augmentationLoop Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.augmentationLoop
+2014-06-25 13:35:42,589 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab423 zxid:0x194 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest/zeromq Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest/zeromq
+2014-06-25 13:35:42,653 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab426 zxid:0x197 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/listen Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/listen
+2014-06-25 13:35:42,731 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280001 type:create cxid:0x53aab429 zxid:0x19a txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/agents Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/agents
+2014-06-25 13:35:42,761 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab427 zxid:0x19c txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router/logger Error:KeeperErrorCode = NoNode for /360dialog-rtb/router/logger
+2014-06-25 13:35:42,798 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab428 zxid:0x19e txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router Error:KeeperErrorCode = NoNode for /360dialog-rtb/router
+2014-06-25 13:35:42,891 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:create cxid:0x53aab42c zxid:0x1a2 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router/agents Error:KeeperErrorCode = NoNode for /360dialog-rtb/router/agents
+2014-06-25 13:35:43,012 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280004 type:delete cxid:0x53aab436 zxid:0x1a5 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.mopub Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.mopub
+2014-06-25 13:41:37,173 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,175 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38683 which had sessionid 0x146d2cf29280001
+2014-06-25 13:41:37,176 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280003, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,176 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38685 which had sessionid 0x146d2cf29280003
+2014-06-25 13:41:37,177 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280002, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,177 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38684 which had sessionid 0x146d2cf29280002
+2014-06-25 13:41:37,178 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280005, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,178 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38687 which had sessionid 0x146d2cf29280005
+2014-06-25 13:41:37,179 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280000, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,180 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38682 which had sessionid 0x146d2cf29280000
+2014-06-25 13:41:37,180 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280004, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:41:37,182 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38686 which had sessionid 0x146d2cf29280004
+2014-06-25 13:41:40,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280000, timeout of 4000ms exceeded
+2014-06-25 13:41:40,004 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280000
+2014-06-25 13:41:42,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280003, timeout of 4000ms exceeded
+2014-06-25 13:41:42,002 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280004, timeout of 4000ms exceeded
+2014-06-25 13:41:42,002 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280002, timeout of 4000ms exceeded
+2014-06-25 13:41:42,003 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280001, timeout of 4000ms exceeded
+2014-06-25 13:41:42,003 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280005, timeout of 4000ms exceeded
+2014-06-25 13:41:42,003 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280003
+2014-06-25 13:41:42,005 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280004
+2014-06-25 13:41:42,006 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280002
+2014-06-25 13:41:42,008 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280001
+2014-06-25 13:41:42,009 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280005
+2014-06-25 13:43:30,890 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38702
+2014-06-25 13:43:30,891 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38702; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,891 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38702
+2014-06-25 13:43:30,901 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38703
+2014-06-25 13:43:30,901 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38704
+2014-06-25 13:43:30,902 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38703; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,903 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38703
+2014-06-25 13:43:30,904 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38705
+2014-06-25 13:43:30,904 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38704; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,904 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38704
+2014-06-25 13:43:30,905 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38705; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,905 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38705
+2014-06-25 13:43:30,906 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38706
+2014-06-25 13:43:30,906 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38706; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,907 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38706
+2014-06-25 13:43:30,909 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38707
+2014-06-25 13:43:30,909 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38707; will be dropped if server is in r-o mode
+2014-06-25 13:43:30,909 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38707
+2014-06-25 13:43:30,913 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280006 with negotiated timeout 4000 for client /127.0.0.1:38702
+2014-06-25 13:43:30,914 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280006 type:create cxid:0x53aab5e3 zxid:0x1b2 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,915 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280007 with negotiated timeout 4000 for client /127.0.0.1:38703
+2014-06-25 13:43:30,918 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280008 with negotiated timeout 4000 for client /127.0.0.1:38704
+2014-06-25 13:43:30,918 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab5e3 zxid:0x1b3 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,920 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280008 type:create cxid:0x53aab5e3 zxid:0x1b4 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,920 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280009 with negotiated timeout 4000 for client /127.0.0.1:38705
+2014-06-25 13:43:30,923 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000a with negotiated timeout 4000 for client /127.0.0.1:38706
+2014-06-25 13:43:30,923 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280009 type:create cxid:0x53aab5e3 zxid:0x1b5 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,926 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000a type:create cxid:0x53aab5e3 zxid:0x1b6 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,926 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000b with negotiated timeout 4000 for client /127.0.0.1:38707
+2014-06-25 13:43:30,927 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab5e3 zxid:0x1b7 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb Error:KeeperErrorCode = NodeExists for /360dialog-rtb
+2014-06-25 13:43:30,958 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000a type:delete cxid:0x53aab5e5 zxid:0x1b8 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/retargeting-agent Error:KeeperErrorCode = NoNode for /360dialog-rtb/retargeting-agent
+2014-06-25 13:43:30,959 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280009 type:delete cxid:0x53aab5e5 zxid:0x1b9 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/data_logger Error:KeeperErrorCode = NoNode for /360dialog-rtb/data_logger
+2014-06-25 13:43:30,959 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280008 type:delete cxid:0x53aab5e5 zxid:0x1ba txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/redis-augmentation Error:KeeperErrorCode = NoNode for /360dialog-rtb/redis-augmentation
+2014-06-25 13:43:30,995 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280009 type:delete cxid:0x53aab5e7 zxid:0x1be txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/data_logger.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/data_logger.loopMonitor
+2014-06-25 13:43:31,008 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280008 type:delete cxid:0x53aab5e7 zxid:0x1c0 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/redis-augmentation.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/redis-augmentation.loopMonitor
+2014-06-25 13:43:31,120 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280006 type:delete cxid:0x53aab5ec zxid:0x1c8 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor
+2014-06-25 13:43:31,169 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:delete cxid:0x53aab5f1 zxid:0x1cd txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService
+2014-06-25 13:43:31,173 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:delete cxid:0x53aab5ef zxid:0x1ce txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.loopMonitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.loopMonitor
+2014-06-25 13:43:31,173 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280006 type:create cxid:0x53aab5ee zxid:0x1cf txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor/http Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor/http
+2014-06-25 13:43:31,222 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280006 type:create cxid:0x53aab5ef zxid:0x1d1 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor
+2014-06-25 13:43:31,242 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:delete cxid:0x53aab5f1 zxid:0x1d2 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.bidder Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.bidder
+2014-06-25 13:43:31,385 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab5f7 zxid:0x1d8 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest/http Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest/http
+2014-06-25 13:43:31,385 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab5f4 zxid:0x1d9 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.augmentationLoop/augmentors Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.augmentationLoop/augmentors
+2014-06-25 13:43:31,406 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280006 type:create cxid:0x53aab5f3 zxid:0x1da txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/monitor/zeromq Error:KeeperErrorCode = NoNode for /360dialog-rtb/monitor/zeromq
+2014-06-25 13:43:31,429 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab5f8 zxid:0x1db txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest
+2014-06-25 13:43:31,429 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab5f5 zxid:0x1dc txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.augmentationLoop Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.augmentationLoop
+2014-06-25 13:43:31,462 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab5f9 zxid:0x1df txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService
+2014-06-25 13:43:31,622 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab600 zxid:0x1e7 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/rest/zeromq Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/rest/zeromq
+2014-06-25 13:43:31,711 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab603 zxid:0x1ea txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/listen Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/listen
+2014-06-25 13:43:31,765 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab601 zxid:0x1ec txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router/logger Error:KeeperErrorCode = NoNode for /360dialog-rtb/router/logger
+2014-06-25 13:43:31,785 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab602 zxid:0x1ee txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router Error:KeeperErrorCode = NoNode for /360dialog-rtb/router
+2014-06-25 13:43:31,805 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280007 type:create cxid:0x53aab606 zxid:0x1ef txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/agentConfigurationService/agents Error:KeeperErrorCode = NoNode for /360dialog-rtb/agentConfigurationService/agents
+2014-06-25 13:43:31,921 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:create cxid:0x53aab606 zxid:0x1f5 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router/agents Error:KeeperErrorCode = NoNode for /360dialog-rtb/router/agents
+2014-06-25 13:43:32,062 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000b type:delete cxid:0x53aab610 zxid:0x1f8 txntype:-1 reqpath:n/a Error Path:/360dialog-rtb/router.mopub Error:KeeperErrorCode = NoNode for /360dialog-rtb/router.mopub
+2014-06-25 13:45:59,879 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280006, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,882 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38702 which had sessionid 0x146d2cf29280006
+2014-06-25 13:45:59,883 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280007, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,886 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38703 which had sessionid 0x146d2cf29280007
+2014-06-25 13:45:59,886 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000a, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,888 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38706 which had sessionid 0x146d2cf2928000a
+2014-06-25 13:45:59,888 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280009, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,889 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38705 which had sessionid 0x146d2cf29280009
+2014-06-25 13:45:59,889 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000b, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,890 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38707 which had sessionid 0x146d2cf2928000b
+2014-06-25 13:45:59,891 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280008, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:45:59,892 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38704 which had sessionid 0x146d2cf29280008
+2014-06-25 13:46:04,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000b, timeout of 4000ms exceeded
+2014-06-25 13:46:04,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280009, timeout of 4000ms exceeded
+2014-06-25 13:46:04,002 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280008, timeout of 4000ms exceeded
+2014-06-25 13:46:04,007 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280006, timeout of 4000ms exceeded
+2014-06-25 13:46:04,007 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000a, timeout of 4000ms exceeded
+2014-06-25 13:46:04,008 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280007, timeout of 4000ms exceeded
+2014-06-25 13:46:04,009 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000b
+2014-06-25 13:46:04,010 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280009
+2014-06-25 13:46:04,010 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280008
+2014-06-25 13:46:04,012 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280006
+2014-06-25 13:46:04,013 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000a
+2014-06-25 13:46:04,014 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280007
+2014-06-25 13:49:18,910 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38721
+2014-06-25 13:49:18,910 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38721; will be dropped if server is in r-o mode
+2014-06-25 13:49:18,911 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38721
+2014-06-25 13:49:18,911 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38722
+2014-06-25 13:49:18,911 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38722; will be dropped if server is in r-o mode
+2014-06-25 13:49:18,912 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38722
+2014-06-25 13:49:18,917 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38723
+2014-06-25 13:49:18,918 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38724
+2014-06-25 13:49:18,918 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38723; will be dropped if server is in r-o mode
+2014-06-25 13:49:18,918 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38723
+2014-06-25 13:49:18,918 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38724; will be dropped if server is in r-o mode
+2014-06-25 13:49:18,919 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38724
+2014-06-25 13:49:18,921 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:38725
+2014-06-25 13:49:18,921 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:38725; will be dropped if server is in r-o mode
+2014-06-25 13:49:18,921 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:38725
+2014-06-25 13:49:18,928 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000c with negotiated timeout 4000 for client /127.0.0.1:38721
+2014-06-25 13:49:18,931 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab73f zxid:0x204 txntype:-1 reqpath:n/a Error Path:/rtb-test Error:KeeperErrorCode = NodeExists for /rtb-test
+2014-06-25 13:49:18,944 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000d with negotiated timeout 4000 for client /127.0.0.1:38722
+2014-06-25 13:49:18,947 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000e with negotiated timeout 4000 for client /127.0.0.1:38723
+2014-06-25 13:49:18,951 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000d type:create cxid:0x53aab73f zxid:0x205 txntype:-1 reqpath:n/a Error Path:/rtb-test Error:KeeperErrorCode = NodeExists for /rtb-test
+2014-06-25 13:49:18,951 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000e type:create cxid:0x53aab73f zxid:0x206 txntype:-1 reqpath:n/a Error Path:/rtb-test Error:KeeperErrorCode = NodeExists for /rtb-test
+2014-06-25 13:49:18,951 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf2928000f with negotiated timeout 4000 for client /127.0.0.1:38724
+2014-06-25 13:49:18,952 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000f type:create cxid:0x53aab73f zxid:0x207 txntype:-1 reqpath:n/a Error Path:/rtb-test Error:KeeperErrorCode = NodeExists for /rtb-test
+2014-06-25 13:49:18,952 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x146d2cf29280010 with negotiated timeout 4000 for client /127.0.0.1:38725
+2014-06-25 13:49:18,954 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab73f zxid:0x208 txntype:-1 reqpath:n/a Error Path:/rtb-test Error:KeeperErrorCode = NodeExists for /rtb-test
+2014-06-25 13:49:18,991 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000d type:delete cxid:0x53aab741 zxid:0x209 txntype:-1 reqpath:n/a Error Path:/rtb-test/data_logger Error:KeeperErrorCode = NoNode for /rtb-test/data_logger
+2014-06-25 13:49:18,991 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000e type:delete cxid:0x53aab741 zxid:0x20a txntype:-1 reqpath:n/a Error Path:/rtb-test/frequency-cap-ex Error:KeeperErrorCode = NoNode for /rtb-test/frequency-cap-ex
+2014-06-25 13:49:19,031 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000d type:delete cxid:0x53aab743 zxid:0x20d txntype:-1 reqpath:n/a Error Path:/rtb-test/data_logger.loopMonitor Error:KeeperErrorCode = NoNode for /rtb-test/data_logger.loopMonitor
+2014-06-25 13:49:19,068 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000e type:delete cxid:0x53aab743 zxid:0x210 txntype:-1 reqpath:n/a Error Path:/rtb-test/frequency-cap-ex.loopMonitor Error:KeeperErrorCode = NoNode for /rtb-test/frequency-cap-ex.loopMonitor
+2014-06-25 13:49:19,170 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000f type:delete cxid:0x53aab748 zxid:0x217 txntype:-1 reqpath:n/a Error Path:/rtb-test/masterBanker Error:KeeperErrorCode = NoNode for /rtb-test/masterBanker
+2014-06-25 13:49:19,215 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000f type:create cxid:0x53aab74a zxid:0x219 txntype:-1 reqpath:n/a Error Path:/rtb-test/masterBanker/http Error:KeeperErrorCode = NoNode for /rtb-test/masterBanker/http
+2014-06-25 13:49:19,239 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000f type:create cxid:0x53aab74b zxid:0x21d txntype:-1 reqpath:n/a Error Path:/rtb-test/masterBanker Error:KeeperErrorCode = NoNode for /rtb-test/masterBanker
+2014-06-25 13:49:19,309 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:delete cxid:0x53aab74d zxid:0x221 txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService
+2014-06-25 13:49:19,310 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:delete cxid:0x53aab74b zxid:0x222 txntype:-1 reqpath:n/a Error Path:/rtb-test/router.loopMonitor Error:KeeperErrorCode = NoNode for /rtb-test/router.loopMonitor
+2014-06-25 13:49:19,361 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:delete cxid:0x53aab74d zxid:0x225 txntype:-1 reqpath:n/a Error Path:/rtb-test/router.bidder Error:KeeperErrorCode = NoNode for /rtb-test/router.bidder
+2014-06-25 13:49:19,363 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000f type:create cxid:0x53aab74f zxid:0x226 txntype:-1 reqpath:n/a Error Path:/rtb-test/masterBanker/zeromq Error:KeeperErrorCode = NoNode for /rtb-test/masterBanker/zeromq
+2014-06-25 13:49:19,385 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab750 zxid:0x229 txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService/rest/http Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService/rest/http
+2014-06-25 13:49:19,424 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab751 zxid:0x22c txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService/rest Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService/rest
+2014-06-25 13:49:19,442 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab750 zxid:0x22d txntype:-1 reqpath:n/a Error Path:/rtb-test/router.augmentationLoop/augmentors Error:KeeperErrorCode = NoNode for /rtb-test/router.augmentationLoop/augmentors
+2014-06-25 13:49:19,462 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab752 zxid:0x22e txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService
+2014-06-25 13:49:19,480 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab751 zxid:0x22f txntype:-1 reqpath:n/a Error Path:/rtb-test/router.augmentationLoop Error:KeeperErrorCode = NoNode for /rtb-test/router.augmentationLoop
+2014-06-25 13:49:19,693 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab757 zxid:0x237 txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService/rest/zeromq Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService/rest/zeromq
+2014-06-25 13:49:19,778 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab75a zxid:0x23a txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService/listen Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService/listen
+2014-06-25 13:49:19,786 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab75b zxid:0x23b txntype:-1 reqpath:n/a Error Path:/rtb-test/router/logger Error:KeeperErrorCode = NoNode for /rtb-test/router/logger
+2014-06-25 13:49:19,815 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab75c zxid:0x23d txntype:-1 reqpath:n/a Error Path:/rtb-test/router Error:KeeperErrorCode = NoNode for /rtb-test/router
+2014-06-25 13:49:19,875 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf2928000c type:create cxid:0x53aab75d zxid:0x241 txntype:-1 reqpath:n/a Error Path:/rtb-test/agentConfigurationService/agents Error:KeeperErrorCode = NoNode for /rtb-test/agentConfigurationService/agents
+2014-06-25 13:49:19,927 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:create cxid:0x53aab760 zxid:0x244 txntype:-1 reqpath:n/a Error Path:/rtb-test/router/agents Error:KeeperErrorCode = NoNode for /rtb-test/router/agents
+2014-06-25 13:49:20,088 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x146d2cf29280010 type:delete cxid:0x53aab769 zxid:0x248 txntype:-1 reqpath:n/a Error Path:/rtb-test/router.mopub Error:KeeperErrorCode = NoNode for /rtb-test/router.mopub
+2014-06-25 13:53:10,840 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000f, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:53:10,842 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38724 which had sessionid 0x146d2cf2928000f
+2014-06-25 13:53:10,843 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000d, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:53:10,844 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38722 which had sessionid 0x146d2cf2928000d
+2014-06-25 13:53:10,844 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:53:10,845 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38723 which had sessionid 0x146d2cf2928000e
+2014-06-25 13:53:10,846 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf29280010, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:53:10,846 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38725 which had sessionid 0x146d2cf29280010
+2014-06-25 13:53:10,846 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x146d2cf2928000c, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:701)
+2014-06-25 13:53:10,847 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:38721 which had sessionid 0x146d2cf2928000c
+2014-06-25 13:53:14,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf29280010, timeout of 4000ms exceeded
+2014-06-25 13:53:14,002 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000d, timeout of 4000ms exceeded
+2014-06-25 13:53:14,003 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000e, timeout of 4000ms exceeded
+2014-06-25 13:53:14,005 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf29280010
+2014-06-25 13:53:14,005 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000d
+2014-06-25 13:53:14,006 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000e
+2014-06-25 13:53:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000c, timeout of 4000ms exceeded
+2014-06-25 13:53:16,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x146d2cf2928000f, timeout of 4000ms exceeded
+2014-06-25 13:53:16,002 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000c
+2014-06-25 13:53:16,004 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x146d2cf2928000f

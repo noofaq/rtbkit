@@ -1,0 +1,333 @@
+2014-06-25 13:35:42.628 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-25 13:35:42.678 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+2014-06-25 13:35:42.728 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to monitor/zeromq[0m
+2014-06-25 13:35:42.753 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:24000[0m
+augmentor redis-augmentation has connected
+wexists handler returned -101
+2. returning result 
+agent retargeting-agent_8431 connected to router
+2014-06-25 13:35:42.977 ZMQ ./soa/service/zmq_endpoint.cc:447 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnecting to agentConfigurationService/listen[0m
+2014-06-25 13:35:42.990 ZMQ ./soa/service/zmq_endpoint.cc:494 - bool Datacratic::ZmqNamedProxy::connect(const string&, Datacratic::ConnectionStyle) [1;31mconnected to tcp://127.0.0.1:19000[0m
+got configuration message retargeting-agent_8431
+
+
+agent retargeting-agent_8431 got new configuration
+listening on hostname 0.0.0.0 port 12339
+2014-06-25 13:35:43.590 [LOG] MonitorClient ./rtbkit/core/monitor/monitor_client.cc:70 - void RTBKIT::MonitorClient::checkTimeout() [1;31mcheckTimeout: last request dropped[0m
+total of 1.00281e+07 microseconds and 210 sleeps
+CONFIG                                1         52   0.00%    52.00us/call
+HEARTBEAT                            10       4879   0.05%   487.90us/call
+HELLO                                 1         77   0.00%    77.00us/call
+PONG0                                 9        567   0.01%    63.00us/call
+PONG1                                 9       1651   0.02%   183.44us/call
+asleep                              218   10006961  99.79% 45903.49us/call
+checks                              217       6514   0.06%    30.02us/call
+doConfig                            218       3442   0.03%    15.79us/call
+doStartBidding                      218       2688   0.03%    12.33us/call
+doSubmitted                         218       1299   0.01%     5.96us/call
+total of 9.98396e+06 microseconds and 207 sleeps
+HEARTBEAT                            10       4149   0.04%   414.90us/call
+PONG0                                10        476   0.00%    47.60us/call
+PONG1                                10        446   0.00%    44.60us/call
+asleep                              216    9959860  99.76% 46110.46us/call
+checks                              216       8487   0.09%    39.29us/call
+doConfig                            216       3191   0.03%    14.77us/call
+doStartBidding                      216       4093   0.04%    18.95us/call
+doSubmitted                         216       3262   0.03%    15.10us/call
+total of 9.98915e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       2718   0.03%   271.80us/call
+PONG0                                10        592   0.01%    59.20us/call
+PONG1                                10        332   0.00%    33.20us/call
+asleep                              213    9976698  99.88% 46838.96us/call
+checks                              213       4208   0.04%    19.76us/call
+doConfig                            213        968   0.01%     4.54us/call
+doStartBidding                      213       1476   0.01%     6.93us/call
+doSubmitted                         213       2159   0.02%    10.14us/call
+total of 9.99341e+06 microseconds and 208 sleeps
+HEARTBEAT                            10       4738   0.05%   473.80us/call
+PONG0                                10        678   0.01%    67.80us/call
+PONG1                                10        726   0.01%    72.60us/call
+asleep                              217    9972792  99.79% 45957.57us/call
+checks                              217       7934   0.08%    36.56us/call
+doConfig                            217       1742   0.02%     8.03us/call
+doStartBidding                      217       2954   0.03%    13.61us/call
+doSubmitted                         217       1843   0.02%     8.49us/call
+total of 1.00229e+07 microseconds and 206 sleeps
+HEARTBEAT                            10       1303   0.01%   130.30us/call
+PONG0                                 9        513   0.01%    57.00us/call
+PONG1                                 9       1732   0.02%   192.44us/call
+asleep                              215   10006124  99.83% 46540.11us/call
+checks                              215       6937   0.07%    32.27us/call
+doConfig                            215       1304   0.01%     6.07us/call
+doStartBidding                      215       2208   0.02%    10.27us/call
+doSubmitted                         215       2782   0.03%    12.94us/call
+total of 1.00277e+07 microseconds and 207 sleeps
+HEARTBEAT                            10       2760   0.03%   276.00us/call
+PONG0                                10        528   0.01%    52.80us/call
+PONG1                                10        321   0.00%    32.10us/call
+asleep                              214   10009134  99.81% 46771.65us/call
+checks                              214       6352   0.06%    29.68us/call
+doConfig                            214       3408   0.03%    15.93us/call
+doStartBidding                      214       3733   0.04%    17.44us/call
+doSubmitted                         214       1483   0.01%     6.93us/call
+total of 9.99167e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       2410   0.02%   241.00us/call
+PONG0                                10        505   0.01%    50.50us/call
+PONG1                                10        402   0.00%    40.20us/call
+asleep                              217    9970975  99.79% 45949.19us/call
+checks                              217       8178   0.08%    37.69us/call
+doConfig                            217       3206   0.03%    14.77us/call
+doStartBidding                      217       3327   0.03%    15.33us/call
+doSubmitted                         217       2665   0.03%    12.28us/call
+total of 1.00264e+07 microseconds and 206 sleeps
+HEARTBEAT                            10       4808   0.05%   480.80us/call
+PONG0                                10       2345   0.02%   234.50us/call
+PONG1                                10        281   0.00%    28.10us/call
+asleep                              215   10005279  99.79% 46536.18us/call
+checks                              215       5843   0.06%    27.18us/call
+doConfig                            215       1762   0.02%     8.20us/call
+doStartBidding                      215       3321   0.03%    15.45us/call
+doSubmitted                         215       2779   0.03%    12.93us/call
+total of 1.00217e+07 microseconds and 205 sleeps
+HEARTBEAT                            10       4123   0.04%   412.30us/call
+PONG0                                 9        579   0.01%    64.33us/call
+PONG1                                 9        350   0.00%    38.89us/call
+asleep                              213   10008345  99.87% 46987.54us/call
+checks                              213       4244   0.04%    19.92us/call
+doConfig                            213       1504   0.02%     7.06us/call
+doStartBidding                      213       1317   0.01%     6.18us/call
+doSubmitted                         213       1283   0.01%     6.02us/call
+total of 9.99864e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       1630   0.02%   163.00us/call
+PONG0                                10       1546   0.02%   154.60us/call
+PONG1                                10       2130   0.02%   213.00us/call
+asleep                              214    9978611  99.80% 46629.02us/call
+checks                              214       6681   0.07%    31.22us/call
+doConfig                            214       1620   0.02%     7.57us/call
+doStartBidding                      214       2748   0.03%    12.84us/call
+doSubmitted                         214       3669   0.04%    17.14us/call
+total of 1.00201e+07 microseconds and 206 sleeps
+HEARTBEAT                            10       5110   0.05%   511.00us/call
+PONG0                                10        528   0.01%    52.80us/call
+PONG1                                10        925   0.01%    92.50us/call
+asleep                              215    9996594  99.77% 46495.79us/call
+checks                              215       6629   0.07%    30.83us/call
+doConfig                            215       3606   0.04%    16.77us/call
+doStartBidding                      215       1940   0.02%     9.02us/call
+doSubmitted                         215       4728   0.05%    21.99us/call
+total of 9.99244e+06 microseconds and 210 sleeps
+HEARTBEAT                            10       1512   0.02%   151.20us/call
+PONG0                                10       1438   0.01%   143.80us/call
+PONG1                                10        443   0.00%    44.30us/call
+asleep                              218    9975725  99.83% 45760.21us/call
+checks                              218       6583   0.07%    30.20us/call
+doConfig                            218       2427   0.02%    11.13us/call
+doStartBidding                      218       2262   0.02%    10.38us/call
+doSubmitted                         218       2054   0.02%     9.42us/call
+total of 1.00222e+07 microseconds and 206 sleeps
+HEARTBEAT                            10       2907   0.03%   290.70us/call
+PONG0                                10        496   0.00%    49.60us/call
+PONG1                                10        319   0.00%    31.90us/call
+asleep                              216    9999089  99.77% 46292.08us/call
+checks                              216       7994   0.08%    37.01us/call
+doConfig                            216       2943   0.03%    13.62us/call
+doStartBidding                      216       2537   0.03%    11.75us/call
+doSubmitted                         216       5892   0.06%    27.28us/call
+total of 9.98759e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       3585   0.04%   358.50us/call
+PONG0                                 9       1173   0.01%   130.33us/call
+PONG1                                 9        541   0.01%    60.11us/call
+asleep                              215    9971529  99.84% 46379.20us/call
+checks                              215       5136   0.05%    23.89us/call
+doConfig                            215       1338   0.01%     6.22us/call
+doStartBidding                      215       2418   0.02%    11.25us/call
+doSubmitted                         215       1873   0.02%     8.71us/call
+total of 1.00304e+07 microseconds and 207 sleeps
+HEARTBEAT                            10       1852   0.02%   185.20us/call
+PONG0                                10        479   0.00%    47.90us/call
+PONG1                                10        454   0.00%    45.40us/call
+asleep                              217   10012634  99.82% 46141.17us/call
+checks                              217       5101   0.05%    23.51us/call
+doConfig                            217       2926   0.03%    13.48us/call
+doStartBidding                      217       5222   0.05%    24.06us/call
+doSubmitted                         217       1765   0.02%     8.13us/call
+total of 9.99092e+06 microseconds and 208 sleeps
+HEARTBEAT                            10       2585   0.03%   258.50us/call
+PONG0                                10        458   0.00%    45.80us/call
+PONG1                                10       1530   0.02%   153.00us/call
+asleep                              217    9965086  99.74% 45922.06us/call
+checks                              217       6558   0.07%    30.22us/call
+doConfig                            217       3186   0.03%    14.68us/call
+doStartBidding                      217       6530   0.07%    30.09us/call
+doSubmitted                         217       4985   0.05%    22.97us/call
+total of 1.00328e+07 microseconds and 206 sleeps
+HEARTBEAT                            11       3774   0.04%   343.09us/call
+PONG0                                10       1918   0.02%   191.80us/call
+PONG1                                10        305   0.00%    30.50us/call
+asleep                              216   10010104  99.77% 46343.07us/call
+checks                              216      11389   0.11%    52.73us/call
+doConfig                            216       1278   0.01%     5.92us/call
+doStartBidding                      216       2932   0.03%    13.57us/call
+doSubmitted                         216       1127   0.01%     5.22us/call
+total of 1.00266e+07 microseconds and 207 sleeps
+HEARTBEAT                            10       3103   0.03%   310.30us/call
+PONG0                                10        532   0.01%    53.20us/call
+PONG1                                10       1130   0.01%   113.00us/call
+asleep                              217   10008327  99.82% 46121.32us/call
+checks                              217       7800   0.08%    35.94us/call
+doConfig                            217       1009   0.01%     4.65us/call
+doStartBidding                      217       2974   0.03%    13.71us/call
+doSubmitted                         217       1684   0.02%     7.76us/call
+total of 9.98551e+06 microseconds and 205 sleeps
+HEARTBEAT                            10       4047   0.04%   404.70us/call
+PONG0                                10       1135   0.01%   113.50us/call
+PONG1                                 9        313   0.00%    34.78us/call
+asleep                              213    9966867  99.81% 46792.80us/call
+checks                              213       5923   0.06%    27.81us/call
+doConfig                            213       2422   0.02%    11.37us/call
+doStartBidding                      213       3546   0.04%    16.65us/call
+doSubmitted                         213       1254   0.01%     5.89us/call
+total of 1.00261e+07 microseconds and 206 sleeps
+HEARTBEAT                            10       4848   0.05%   484.80us/call
+PONG0                                 9        390   0.00%    43.33us/call
+PONG1                                10        270   0.00%    27.00us/call
+asleep                              215    9999948  99.74% 46511.39us/call
+checks                              215       7496   0.07%    34.87us/call
+doConfig                            215       4705   0.05%    21.88us/call
+doStartBidding                      215       6995   0.07%    32.53us/call
+doSubmitted                         215       1481   0.01%     6.89us/call
+total of 9.98148e+06 microseconds and 204 sleeps
+HEARTBEAT                            10       4319   0.04%   431.90us/call
+PONG0                                10        499   0.00%    49.90us/call
+PONG1                                10       1573   0.02%   157.30us/call
+asleep                              213    9958665  99.77% 46754.30us/call
+checks                              213       8793   0.09%    41.28us/call
+doConfig                            213       1099   0.01%     5.16us/call
+doStartBidding                      213       4371   0.04%    20.52us/call
+doSubmitted                         213       2166   0.02%    10.17us/call
+total of 1.00328e+07 microseconds and 210 sleeps
+HEARTBEAT                            10       5963   0.06%   596.30us/call
+PONG0                                10        429   0.00%    42.90us/call
+PONG1                                10        344   0.00%    34.40us/call
+asleep                              218   10011427  99.79% 45923.98us/call
+checks                              218       7003   0.07%    32.12us/call
+doConfig                            218       2085   0.02%     9.56us/call
+doStartBidding                      218       1821   0.02%     8.35us/call
+doSubmitted                         218       3743   0.04%    17.17us/call
+total of 9.98325e+06 microseconds and 202 sleeps
+HEARTBEAT                            10       3447   0.03%   344.70us/call
+PONG0                                 9        428   0.00%    47.56us/call
+PONG1                                 9        250   0.00%    27.78us/call
+asleep                              212    9968258  99.85% 47020.08us/call
+checks                              212       3670   0.04%    17.31us/call
+doConfig                            212       3954   0.04%    18.65us/call
+doStartBidding                      212       2101   0.02%     9.91us/call
+doSubmitted                         212       1140   0.01%     5.38us/call
+total of 9.98882e+06 microseconds and 205 sleeps
+HEARTBEAT                            10       2336   0.02%   233.60us/call
+PONG0                                10        766   0.01%    76.60us/call
+PONG1                                10        415   0.00%    41.50us/call
+asleep                              216    9970554  99.82% 46159.97us/call
+checks                              216       5590   0.06%    25.88us/call
+doConfig                            216       3768   0.04%    17.44us/call
+doStartBidding                      216       4120   0.04%    19.07us/call
+doSubmitted                         216       1274   0.01%     5.90us/call
+total of 1.00274e+07 microseconds and 207 sleeps
+HEARTBEAT                            10       3602   0.04%   360.20us/call
+PONG0                                10        428   0.00%    42.80us/call
+PONG1                                10        290   0.00%    29.00us/call
+asleep                              216   10013155  99.86% 46357.20us/call
+checks                              216       4002   0.04%    18.53us/call
+doConfig                            216       1897   0.02%     8.78us/call
+doStartBidding                      216       1986   0.02%     9.19us/call
+doSubmitted                         216       2070   0.02%     9.58us/call
+total of 9.98485e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       1052   0.01%   105.20us/call
+PONG0                                10       2101   0.02%   210.10us/call
+PONG1                                10        307   0.00%    30.70us/call
+asleep                              216    9959777  99.75% 46110.08us/call
+checks                              216       7506   0.08%    34.75us/call
+doConfig                            216       1070   0.01%     4.95us/call
+doStartBidding                      216       9909   0.10%    45.88us/call
+doSubmitted                         216       3130   0.03%    14.49us/call
+total of 1.00323e+07 microseconds and 207 sleeps
+HEARTBEAT                            10       3199   0.03%   319.90us/call
+PONG0                                10        991   0.01%    99.10us/call
+PONG1                                10        388   0.00%    38.80us/call
+asleep                              214   10009410  99.77% 46772.94us/call
+checks                              214      14494   0.14%    67.73us/call
+doConfig                            214        933   0.01%     4.36us/call
+doStartBidding                      214       1071   0.01%     5.00us/call
+doSubmitted                         214       1823   0.02%     8.52us/call
+total of 9.98703e+06 microseconds and 204 sleeps
+HEARTBEAT                            10       1597   0.02%   159.70us/call
+PONG0                                 9        429   0.00%    47.67us/call
+PONG1                                 9        686   0.01%    76.22us/call
+asleep                              211    9971817  99.85% 47259.80us/call
+checks                              211       8716   0.09%    41.31us/call
+doConfig                            211       1112   0.01%     5.27us/call
+doStartBidding                      211       1532   0.02%     7.26us/call
+doSubmitted                         211       1145   0.01%     5.43us/call
+total of 1.00289e+07 microseconds and 205 sleeps
+HEARTBEAT                            10       4897   0.05%   489.70us/call
+PONG0                                10        410   0.00%    41.00us/call
+PONG1                                10       1266   0.01%   126.60us/call
+asleep                              215   10008210  99.79% 46549.81us/call
+checks                              215       5628   0.06%    26.18us/call
+doConfig                            215       1509   0.02%     7.02us/call
+doStartBidding                      215       2254   0.02%    10.48us/call
+doSubmitted                         215       4686   0.05%    21.80us/call
+total of 9.98983e+06 microseconds and 206 sleeps
+HEARTBEAT                            10       4465   0.04%   446.50us/call
+PONG0                                10        498   0.00%    49.80us/call
+PONG1                                10        298   0.00%    29.80us/call
+asleep                              218    9970965  99.81% 45738.37us/call
+checks                              218       4898   0.05%    22.47us/call
+doConfig                            218       2583   0.03%    11.85us/call
+doStartBidding                      218       5045   0.05%    23.14us/call
+doSubmitted                         218       1082   0.01%     4.96us/call
+total of 1.00234e+07 microseconds and 202 sleeps
+HEARTBEAT                            10       4325   0.04%   432.50us/call
+PONG0                                 9        398   0.00%    44.22us/call
+PONG1                                 9        271   0.00%    30.11us/call
+asleep                              213   10000435  99.77% 46950.40us/call
+checks                              213      10492   0.10%    49.26us/call
+doConfig                            213       1617   0.02%     7.59us/call
+doStartBidding                      213       3126   0.03%    14.68us/call
+doSubmitted                         213       2695   0.03%    12.65us/call
+total of 9.99065e+06 microseconds and 205 sleeps
+HEARTBEAT                            10       2656   0.03%   265.60us/call
+PONG0                                10        439   0.00%    43.90us/call
+PONG1                                10        297   0.00%    29.70us/call
+asleep                              213    9973719  99.83% 46824.97us/call
+checks                              213       7908   0.08%    37.13us/call
+doConfig                            213       1855   0.02%     8.71us/call
+doStartBidding                      213       2078   0.02%     9.76us/call
+doSubmitted                         213       1698   0.02%     7.97us/call
+total of 1.00287e+07 microseconds and 205 sleeps
+HEARTBEAT                            10       5245   0.05%   524.50us/call
+PONG0                                10        441   0.00%    44.10us/call
+PONG1                                10        295   0.00%    29.50us/call
+asleep                              212   10008869  99.80% 47211.65us/call
+checks                              212       8191   0.08%    38.64us/call
+doConfig                            212       1960   0.02%     9.25us/call
+doStartBidding                      212       2657   0.03%    12.53us/call
+doSubmitted                         212       1033   0.01%     4.87us/call
+total of 9.98355e+06 microseconds and 209 sleeps
+HEARTBEAT                            10       3068   0.03%   306.80us/call
+PONG0                                10        660   0.01%    66.00us/call
+PONG1                                10        346   0.00%    34.60us/call
+asleep                              217    9964861  99.81% 45921.02us/call
+checks                              217       5211   0.05%    24.01us/call
+doConfig                            217       2142   0.02%     9.87us/call
+doStartBidding                      217       3123   0.03%    14.39us/call
+doSubmitted                         217       4139   0.04%    19.07us/call
+total of 9.99528e+06 microseconds and 208 sleeps
+HEARTBEAT                            10       3611   0.04%   361.10us/call
+PONG0                                10        479   0.00%    47.90us/call
+PONG1                                10        317   0.00%    31.70us/call
+asleep                              217    9978149  99.83% 45982.25us/call
+checks                              217       6898   0.07%    31.79us/call
+doConfig                            217       1775   0.02%     8.18us/call
+doStartBidding                      217       2986   0.03%    13.76us/call
+doSubmitted                         217       1061   0.01%     4.89us/call

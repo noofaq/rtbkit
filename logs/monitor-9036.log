@@ -1,0 +1,153 @@
+bound tcp for http port 9987
+monitor is listening on tcp://*:24000,http://0.0.0.0:9987
+router.augmentationLoop/augmentors/tcp --> [{"transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":18000},{"name":"zeromq","socketType":6,"uri":"tcp://127.0.0.1:18000"}],"zmqConnectUri":"tcp://127.0.0.1:18000"},{"transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":18000},{"name":"zeromq","socketType":6,"uri":"tcp://pn-rtbkit:18000"}],"zmqConnectUri":"tcp://pn-rtbkit:18000"}]
+serviceClass/rtbAgentConfiguration/agentConfigurationService --> {"serviceLocation":"berlin","serviceName":"agentConfigurationService","servicePath":"agentConfigurationService"}
+serviceClass/rtbRouterAugmentation/router.augmentationLoop --> {"serviceLocation":"berlin","serviceName":"router.augmentationLoop","servicePath":"router.augmentationLoop"}
+serviceClass/monitor/monitor --> {"serviceLocation":"berlin","serviceName":"monitor","servicePath":"monitor"}
+serviceClass/rtbRequestRouter/router --> {"serviceLocation":"berlin","serviceName":"router","servicePath":"router"}
+monitor/http/tcp --> [{"httpUri":"http://127.0.0.1:9987","transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":9987},{"name":"http","uri":"http://127.0.0.1:9987"}]},{"httpUri":"http://172.16.20.114:9987","transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":9987},{"name":"http","uri":"http://172.16.20.114:9987"}]}]
+monitor/zeromq/tcp --> [{"transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":24000},{"name":"zeromq","socketType":6,"uri":"tcp://127.0.0.1:24000"}],"zmqConnectUri":"tcp://127.0.0.1:24000"},{"transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":24000},{"name":"zeromq","socketType":6,"uri":"tcp://pn-rtbkit:24000"}],"zmqConnectUri":"tcp://pn-rtbkit:24000"}]
+agentConfigurationService/rest/http/tcp --> [{"httpUri":"http://127.0.0.1:9986","transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":9986},{"name":"http","uri":"http://127.0.0.1:9986"}]},{"httpUri":"http://172.16.20.114:9986","transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":9986},{"name":"http","uri":"http://172.16.20.114:9986"}]}]
+agentConfigurationService/rest/zeromq/tcp --> [{"transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":23000},{"name":"zeromq","socketType":6,"uri":"tcp://127.0.0.1:23000"}],"zmqConnectUri":"tcp://127.0.0.1:23000"},{"transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":23000},{"name":"zeromq","socketType":6,"uri":"tcp://pn-rtbkit:23000"}],"zmqConnectUri":"tcp://pn-rtbkit:23000"}]
+agentConfigurationService/listen/tcp --> [{"transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":19000},{"name":"zeromq","socketType":6,"uri":"tcp://127.0.0.1:19000"}],"zmqConnectUri":"tcp://127.0.0.1:19000"},{"transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":19000},{"name":"zeromq","socketType":6,"uri":"tcp://pn-rtbkit:19000"}],"zmqConnectUri":"tcp://pn-rtbkit:19000"}]
+agentConfigurationService/agents/tcp --> [{"transports":[{"addr":"127.0.0.1","hostScope":"pn-rtbkit","name":"tcp","port":15000},{"name":"zeromq","socketType":6,"uri":"tcp://127.0.0.1:15000"}],"zmqConnectUri":"tcp://127.0.0.1:15000"},{"transports":[{"addr":"172.16.20.114","hostScope":"*","name":"tcp","port":15000},{"name":"zeromq","socketType":6,"uri":"tcp://pn-rtbkit:15000"}],"zmqConnectUri":"tcp://pn-rtbkit:15000"}]
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:43:40  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:43:41  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:43:40  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:43:50  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:43:51  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:43:50  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:00  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:01  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:00  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:10  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:11  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:10  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:20  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:21  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:20  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:30  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:31  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:30  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:40  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:41  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:40  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:44:50  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:44:51  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:44:50  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:00  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:01  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:00  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:10  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:11  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:10  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:20  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:21  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:20  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:30  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:31  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:30  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:40  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:41  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:40  Connection to PAL: ERROR
+
+
+rtbAgentConfiguration: 
+    agentConfigurationService OK  2014-06-25 11:45:50  Alive
+rtbBanker: 
+rtbDataLogger: 
+    data_logger          OK  2014-06-25 11:45:51  Alive
+rtbPostAuctionService: 
+rtbRequestRouter: 
+    router               ERR 2014-06-25 11:45:50  Connection to PAL: ERROR
