@@ -28,7 +28,7 @@
     // Location of the Carbon instances which will be used to log various
     // metrics. If missing, then a barebone internal event logger will be
     // created which can be useful to write tests.
-    // "carbon-uri": ["localhost:2003"],
+    "carbon-uri": ["localhost:2003"],
 
     // Port ranges that various services can use to listen for incoming
     // connections. These can be specified either as a single port or a range of

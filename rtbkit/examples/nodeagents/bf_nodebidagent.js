@@ -17,7 +17,7 @@ var RTBkit = require('rtb'),
     accountFullName = config.account.join(":");
     
 // uri,install name and location from bootstrap.json
-services.useZookeeper(zookeeperUri,"rtb-test", "mtl"); 
+services.useZookeeper(zookeeperUri,"360dialog-rtb", "berlin"); 
 
 // yes, we want to log to carbon
 services.logToCarbon('localhost:2003');
@@ -39,13 +39,14 @@ var topupErrorHandler = function(err, res){
 }
 
 // Keep the budget for this subaccount topped up
-var pace = function(){
-  if (!accountAdded){
-    budgetController.addAccount(accountParent, addAccountHandler);
-    accountAdded = true;
-  }
-  budgetController.topupTransferSync(accountFullName, "USD/1M", 1, topupErrorHandler);
-}
+//var pace = function(){
+//  if (!accountAdded){
+//    budgetController.addAccount(accountParent, addAccountHandler);
+//    accountAdded = true;
+//  }
+//  budgetController.topupTransferSync(accountFullName, "USD/1M", 1, topupErrorHandler);
+//}
+var pace = function() {}
 
 var agent = new RTBkit.BiddingAgent("predicativeAgent", services);
 
