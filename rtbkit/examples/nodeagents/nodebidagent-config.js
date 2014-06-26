@@ -13,28 +13,28 @@ exports.config = {
       "format":{"width":0,"height":0},
       "id":3,
       "name":"AnyBox",
-      "tagId":3,
       "providerConfig": {
     	  "mopub" : {
-              "adid":12345,
+              "adid":"123456",
               "crid":"banner",
-              "adomain": ["www.adomain.com"],
-              "nurl": "http://example.com/mopub/win/0.999",
+              "adomain": ["rtbkit.org"],
+              "nurl": "http://example.com/mopub/win/${AUCTION_PRICE}",
               "iurl": "http://example.com/w.jpg",
-              "attr":"12",
-              "type":"4",
-              "cat":"IAB14",
-              "adm": "<img src='http://localhost/creative.png?width=320&height=50&price=${AUCTION_PRICE}'>"
+              "attr":"attr",
+              "type":"type",
+              "cat":"cat",
+              "adm": "<span>${AUCTION_PRICE}</span>"
     	  }
       }
     }
   ],
   "providerConfig":{
 	"mopub": {
-		"seat" : "testSeat",
-		"iurl" : "http://localhost/test.jpg"
+		"seat" : "123456",
+		"iurl" : "http://www.gnu.org"
 	}
   },
+  "augmentations" : {},
 //  "augmentations":{
 //    "frequency-cap-ex":{
 //      "required":true,
