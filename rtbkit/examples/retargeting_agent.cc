@@ -30,18 +30,16 @@ namespace RTBKIT {
 
  */
 struct RetargetingAgent :
-    public BiddingAgent
-{
+        public BiddingAgent {
     RetargetingAgent(
         std::shared_ptr<Datacratic::ServiceProxies> services,
         const string& serviceName) :
         BiddingAgent(services, serviceName),
-        accountSetup(false)
-    {}
+        accountSetup(false) {
+    }
 
 
-    void init()
-    {
+    void init() {
         // We only want to specify a subset of the callbacks so turn the
         // annoying safety belt off.
         strictMode(false);
@@ -52,24 +50,21 @@ struct RetargetingAgent :
         BiddingAgent::init();
     }
 
-    void start()
-    {
+    void start() {
         BiddingAgent::start();
 
         // Build our configuration and tell the world about it.
         setConfig();
     }
 
-    void shutdown()
-    {
+    void shutdown() {
         BiddingAgent::shutdown();
 
     }
 
 
     /** Sets up an agent configuration for our example. */
-    void setConfig()
-    {
+    void setConfig() {
         config = AgentConfig();
 
         // Accounts are used to control the allocation of spending budgets for
@@ -89,13 +84,13 @@ struct RetargetingAgent :
         for (auto & c: config.creatives) {
             c.providerConfig["mopub"]["adomain"][0] = "rtbkit.org";
             c.providerConfig["mopub"]["nurl"]
-            = std::string("<img src=\"http://")
-              + "example.com"
-              + "/creative.png?width="
-              + std::to_string(c.format.width)
-              + "&height="
-              + std::to_string(c.format.height)
-              + "&price=${AUCTION_PRICE}\"/>";
+                = std::string("<img src=\"http://")
+                  + "example.com"
+                  + "/creative.png?width="
+                  + std::to_string(c.format.width)
+                  + "&height="
+                  + std::to_string(c.format.height)
+                  + "&price=${AUCTION_PRICE}\"/>";
 
             c.providerConfig["mopub"]["adid"] = c.name;
 
@@ -125,9 +120,8 @@ struct RetargetingAgent :
         std::shared_ptr<RTBKIT::BidRequest> br,
         Bids bids,
         double timeLeftMs,
-        const Json::Value & augmentations)
-     {
-           for (Bid& bid : bids) {
+        const Json::Value & augmentations) {
+        for (Bid& bid : bids) {
 
             // In our example, all our creatives are of the different sizes so
             // there should only ever be one biddable creative. Note that that
@@ -144,7 +138,7 @@ struct RetargetingAgent :
             // Create a 0.0001$ CPM bid with our available creative.
             // Note that by default, the bid price is set to 0 which indicates
             // that we don't wish to bid on the given spot.
-            bid.bid(availableCreative, MicroUSD(100));
+            bid.bid(availableCreative, MicroUSD(123));
         }
 
         // A value that will be passed back to us when we receive the result of
@@ -168,8 +162,7 @@ struct RetargetingAgent :
 /* MAIN                                                                       */
 /******************************************************************************/
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
     using namespace boost::program_options;
 
     Datacratic::ServiceProxyArguments args;
