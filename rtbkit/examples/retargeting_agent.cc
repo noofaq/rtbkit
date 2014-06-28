@@ -84,21 +84,13 @@ struct RetargetingAgent :
         for (auto & c: config.creatives) {
             c.providerConfig["mopub"]["adomain"][0] = "rtbkit.org";
             c.providerConfig["mopub"]["nurl"]
-                = std::string("<img src=\"http://")
-                  + "example.com"
-                  + "/creative.png?width="
-                  + std::to_string(c.format.width)
-                  + "&height="
-                  + std::to_string(c.format.height)
-                  + "&price=${AUCTION_PRICE}\"/>";
-
+                = "http://adserver.360dialog.com/mopub/win/${AUCTION_ID}/${AUCTION_BID_ID}/${AUCTION_IMP_ID}/${AUCTION_SEAT_ID}/${AUCTION_AD_ID}/${AUCTION_PRICE}/0.999";
             c.providerConfig["mopub"]["adid"] = c.name;
-
             c.providerConfig["mopub"]["type"] = "type";
             c.providerConfig["mopub"]["crid"] = "crid123";
             c.providerConfig["mopub"]["attr"] = "attr";
             c.providerConfig["mopub"]["cat"] = "cat";
-            c.providerConfig["mopub"]["adm"] = "<span>${AUCTION_PRICE}</span>";
+            c.providerConfig["mopub"]["adm"] = "<id>${AUCTION_ID}</id>";
         }
 
         // Configures the agent to only receive 10% of the bid request traffic

@@ -172,12 +172,20 @@ getCreativeCompatibility(const Creative & creative,
     }
     tmp.clear();
 
-    // 4.  Must have mopub.adm that includes MoPub's macro
+    // 4a.  Must have mopub.adm that includes MoPub's macro
     getAttr(result, pconf, "adm", crinfo->adm, includeReasons);
-    if (crinfo->adm.find("${AUCTION_PRICE}") == string::npos)
+    if (crinfo->adm.find("${AUCTION_ID}") == string::npos)
         result.setIncompatible
-        ("creative[].providerConfig.mopub.adm ad markup must contain "
-         "encrypted win price macro ${AUCTION_PRICE}",
+        ("creative[].providerConfig.mopub.adm must contain ${AUCTION_ID}",
+         includeReasons);
+
+    // 4b.  Must have mopub.nurl that includes MoPub's macro
+    getAttr(result, pconf, "nurl", crinfo->nurl, includeReasons);
+    if (crinfo->nurl.find("${AUCTION_PRICE}") == string::npos || 
+        crinfo->nurl.find("${AUCTION_ID}") == string::npos)
+        result.setIncompatible
+        ("creative[].providerConfig.mopub.nurl must contain "
+         "${AUCTION_PRICE} and ${AUCTION_ID}",
          includeReasons);
 
     // 5.  Must have creative ID in mopub.crid
@@ -369,6 +377,7 @@ setSeatBid(Auction const & auction,
     b.impid = auction.request->imp[spotNum].id;
     b.price.val = getAmountIn<CPM>(resp.price.maxPrice);
     b.adm = crinfo->adm;
+    b.nurl = crinfo->nurl;
     b.adomain = crinfo->adomain;
     b.crid = crinfo->crid;
     b.iurl = cpinfo->iurl;

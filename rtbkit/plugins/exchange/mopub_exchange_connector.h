@@ -69,6 +69,7 @@ struct MoPubExchangeConnector: public OpenRTBExchangeConnector {
     */
     struct CreativeInfo {
         std::string adm;                                ///< Ad markup
+        std::string nurl;                               ///< notification url
         std::vector<std::string> adomain;               ///< Advertiser domains
         Id crid;                                        ///< Creative ID
         std::set<std::string> cat;                      ///< Creative category Appendix 6.1
